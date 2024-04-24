@@ -26,5 +26,10 @@
         {
             animale.Vola();
         }
+        static void FaiNuotare(INuotabile animale)
+        {
+            animale.Nuota();
+        }
     }
+}
 }

@@ -6,13 +6,18 @@ using System.Threading.Tasks;
 
 namespace csharp_abstract_animals
 {
-    internal class Delfino : Animale
+    internal class Delfino : Animale, INuotabile
     {
         public override string Cibo { get; set; } = "Pesce";
 
         public override string Verso()
         {
             return "Verso di Delfino";
+        }
+
+        public void Nuota()
+        {
+            Console.WriteLine("Sto nuotando!!!");
         }
     }
 }

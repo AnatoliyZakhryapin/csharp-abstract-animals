@@ -21,5 +21,10 @@
             }
 
         }
+
+        static void FaiVolare(IVolabile animale)
+        {
+            animale.Vola();
+        }
     }
 }
